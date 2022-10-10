@@ -1,0 +1,16 @@
+img {
+    border: 2px dashed cyan;
+}
+
+.btn {
+    margin : 10px;
+    float: none;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+h5 {
+    margin-top: 10px;
+}
