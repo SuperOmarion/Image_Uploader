@@ -1,0 +1,5 @@
+<div class="row">
+    <upload-card class="col s12 m6 offset-m3" *ngIf="cardDisplayState == 0" (readEvent)="readEvent($event)" [fileImage]="fileImage"></upload-card>
+    <upload-inprogress-card class="col s12 m6 offset-m3" *ngIf="cardDisplayState == 1"></upload-inprogress-card>
+    <upload-done-card class="col s12 m6 offset-m3" *ngIf="cardDisplayState == 2" [success]="success" [imageUrl]="imageUrl"></upload-done-card>
+</div>
